@@ -5,7 +5,10 @@
 
 ### 200~How:
 $  module load anaconda3
+
 $ conda create -n mpi mpi4py numpy scipy
+
 $ conda init bash
+
 Logout and login again
 
