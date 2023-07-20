@@ -3,7 +3,7 @@
 ## MPI with Python
 [200~Parallel Computing in Python using mpi4py](https://research.computing.yale.edu/sites/default/files/files/mpi4py.pdf)
 
-### 200~How:
+### How:
 $  module load anaconda3
 
 $ conda create -n mpi mpi4py numpy scipy
@@ -11,4 +11,7 @@ $ conda create -n mpi mpi4py numpy scipy
 $ conda init bash
 
 Logout and login again
+
+## Introduction to Conda for (Data) Scientists
+[Link](https://carpentries-incubator.github.io/introduction-to-conda-for-data-scientists/)
 
