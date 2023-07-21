@@ -19,23 +19,28 @@ Logout and login again
 
 Docker: gcr.io/ris-registry-shared/cistem
 
-Build Singularity image:
+#### Build Singularity image:
+
 $ singularity pull docker://gcr.io/ris-registry-shared/cistem
 
-Check Display:
+#### Check Display:
 
 $env | grep DIS
 
 DISPLAY=localhost:11.0
 
-Run programm:
+#### Run programm:
 $ singularity run --nv --env DISPLAY=localhost:11.0 cistem_latest.sif
+
 Or
+
 $ singularity exec --nv --env DISPLAY=localhost:11.0 cistem_latest.sif /usr/local/bin/cisTEM
 
-For end user:
-Check display env:
+#### For end user:
+#### Check display env:
+
 $ env | grep DISPLAY
+
 DISPLAY=localhost:11.0
 
 $ singularity exec --nv --env DISPLAY=localhost:11.0 /shared/software/singularity/images/cistem_latest.sif /usr/local/bin/cisTEM
