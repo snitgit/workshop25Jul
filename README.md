@@ -45,3 +45,8 @@ DISPLAY=localhost:11.0
 
 $ singularity exec --nv --env DISPLAY=localhost:11.0 /shared/software/singularity/images/cistem_latest.sif /usr/local/bin/cisTEM
 
+
+
+## References:
+### Intro2Singularity:
+https://nfdi4ing.pages.rwth-aachen.de/knowledge-base/literature/singularity.files/introduction-to-singularity.pdf
